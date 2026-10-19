@@ -57,10 +57,10 @@ class Doctor {
     if (n.contains('saddet') || n.contains('sadded')) return 'assets/images/sadded.jpg';
     if (n.contains('shamim')) return 'assets/images/shamim.jpg';
     if (n.contains('farhad')) return 'assets/images/Farhad.jpg';
-    if (n.contains('reazul')) return 'assets/images/Reazul.jpg';
+    if (n.contains('rezaul') || n.contains('reazul')) return 'assets/images/rezaul.jpg';
     if (n.contains('naser')) return 'assets/images/naser.jpg';
     if (n.contains('ferdous')) return 'assets/images/ferdous.jpg';
-    if (n.contains('kibria')) return 'assets/images/kibria.jpg';
+    if (n.contains('kibria')) return 'assets/images/kibria.png';
     if (n.contains('habibul')) return 'assets/images/habibul.jpg';
     if (n.contains('salam')) return 'assets/images/salam.jpg';
     if (n.contains('nasim')) return 'assets/images/nasim.jpg';

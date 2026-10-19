@@ -17,36 +17,36 @@ during an internship at **Authentic Four Technology**.
 
 ### 1. Home Screen
 
-![Home Screen](screenshots/home.jpeg)
+![Home Screen](Screenshots/Home.jpeg)
 
 ### 2. Doctor Categories
 
-![Doctor Categories](screenshots/doctor-categories.jpeg)
+![Doctor Categories](Screenshots/doctor-categories.jpeg)
 
 ### 3. Doctor Categories with Doctor List
 
 ![Doctor Categories with Doctor
-List](screenshots/doctor-categories-with-list.jpeg)
+List](Screenshots/doctor-categories-with-list.jpeg)
 
 ### 4. All Doctors
 
-![Doctor List](screenshots/doctor-list.jpeg)
+![Doctor List](Screenshots/doctor-list.jpeg)
 
 ### 5. Doctor Details --- Profile and Chamber Information
 
-![Doctor Details](screenshots/doctor-details-1.jpeg)
+![Doctor Details](Screenshots/doctor-details-1.jpeg)
 
 ### 6. Doctor Details --- Appointment Date and Time Selection
 
-![Appointment Selection](screenshots/doctor-details-2.jpeg)
+![Appointment Selection](Screenshots/doctor-details-2.jpeg)
 
 ### 7. My Appointments
 
-![My Appointments](screenshots/appointments.jpeg)
+![My Appointments](Screenshots/appointments.jpeg)
 
 ### 8. My Profile
 
-![My Profile](screenshots/profile.jpeg)
+![My Profile](Screenshots/profile.jpeg)
 
 ------------------------------------------------------------------------
 

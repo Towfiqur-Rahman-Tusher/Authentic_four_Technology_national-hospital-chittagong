@@ -1,109 +1,256 @@
-# National Hospital Chattogram — Flutter UI Demo
+# \# National Hospital Chattogram — Flutter UI Demo
 
-A Flutter UI/frontend redesign project for selected screens of the National Hospital Chattogram mobile application.
+# 
 
-This work was completed individually by **Towfiqur Rahman Tusher** during an internship at **Authentic Four Technology**.
+# A Flutter UI/frontend redesign project for selected screens of the National Hospital Chattogram mobile application.
 
-**Scope:** My contribution was limited to UI/frontend design and implementation. I did not develop or integrate the API or backend services. Appointment-related screens and displayed information should be treated as demo UI unless separately connected to a working service.
+# 
 
----
+# This project was completed individually by \*\*Towfiqur Rahman Tusher\*\* during an internship at \*\*Authentic Four Technology\*\*.
 
-## Screenshots
+# 
 
-* **Home Screen**
-* **Doctor Categories**
-* **Doctor Categories with Doctor List**
-* **All Doctors**
-* **Doctor Details — Profile and Chamber Information**
-* **Doctor Details — Appointment Date and Time Selection**
-* **My Appointments**
-* **My Profile**
+# \*\*Project Scope:\*\* My contribution was limited to UI/frontend design and implementation. I did not develop or integrate the API or backend services. Appointment-related screens and displayed information are presented as demo UI unless connected to a working service.
 
----
+# 
 
-## UI Features
+# \---
 
-- Hospital home screen with search and appointment banner
-- Doctor categories and specialty navigation
-- Doctor listing and search interface
-- Doctor information, experience, ratings and consultation-fee presentation
-- Chamber information UI
-- Appointment date and time-slot selection UI
-- My Appointments screen
-- My Profile screen
-- Bottom navigation for the main app sections
+# 
 
----
+# \## 📱 App Screenshots
 
-## Technology
+# 
 
-- Flutter
-- Dart
-- Flutter Material widgets
-- Android development and testing
+# \### 1. Home Screen
 
----
+# !\[Home Screen](screenshots/home.jpeg)
 
-## Run the Project Locally
+# 
 
-### Requirements
-- Flutter SDK
-- Git
-- VS Code or another Flutter-compatible IDE
-- Android device with USB debugging enabled, or an Android emulator
+# \### 2. Doctor Categories
 
-### Step-by-Step Instructions
+# !\[Doctor Categories](screenshots/doctor-categories.jpeg)
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Towfiqur-Rahman-Tusher/Authentic_four_Technology_national-hospital-chittagong.git
-   ```
-   *Open the cloned repository folder in VS Code.*
+# 
 
-2. **Install dependencies**  
-   Run these commands from the directory containing `pubspec.yaml`:
-   ```bash
-   flutter doctor
-   flutter pub get
-   ```
+# \### 3. Doctor Categories with Doctor List
 
-3. **Check connected devices**
-   ```bash
-   flutter devices
-   ```
+# !\[Doctor Categories with Doctor List](screenshots/doctor-categories-with-list.jpeg)
 
-4. **Run the application**
-   ```bash
-   flutter run
-   ```
-   > *To run on a physical Android phone, enable Developer Options and USB Debugging, connect the phone to your computer, approve the debugging prompt, and select the device.*
+# 
 
----
+# \### 4. All Doctors
 
-## My Individual Contribution
+# !\[Doctor List](screenshots/doctor-list.jpeg)
 
-During my internship at Authentic Four Technology, I independently worked on the UI/frontend design represented by the screenshots in this repository.
+# 
 
-My contribution includes:
-- Designing and updating the visual layout of the documented screens
-- Implementing UI components and screen styling
-- Presenting doctor categories and doctor information
-- Designing appointment-selection and profile-related interfaces
-- Improving the overall visual consistency of the app screens
+# \### 5. Doctor Details — Profile and Chamber Information
 
-**Contribution boundary:** The work described here is my individual UI/frontend contribution. API development, backend implementation, and live appointment-booking integration were not part of my contribution.
+# !\[Doctor Details](screenshots/doctor-details-1.jpeg)
 
-This project documentation does not claim ownership of the hospital's original branding, medical content, or pre-existing application functionality.
+# 
 
----
+# \### 6. Doctor Details — Appointment Date and Time Selection
 
-## Author
+# !\[Appointment Selection](screenshots/doctor-details-2.jpeg)
 
-**Towfiqur Rahman Tusher**  
-GitHub: [Towfiqur-Rahman-Tusher](https://github.com/Towfiqur-Rahman-Tusher)
+# 
 
----
+# \### 7. My Appointments
 
-## Disclaimer
+# !\[My Appointments](screenshots/appointments.jpeg)
 
-This repository documents a UI/frontend demo. Doctor details, consultation fees, ratings, available times, and appointment interactions may be sample or static content. Do not treat the demo as a live hospital booking service.
+# 
+
+# \### 8. My Profile
+
+# !\[My Profile](screenshots/profile.jpeg)
+
+# 
+
+# \---
+
+# 
+
+# \## ✨ UI Features
+
+# 
+
+# \- Hospital home screen with search and appointment banner
+
+# \- Doctor categories and specialty navigation
+
+# \- Doctor listing and search interface
+
+# \- Doctor information, experience, ratings, and consultation-fee presentation
+
+# \- Chamber information interface
+
+# \- Appointment date and time-slot selection UI
+
+# \- My Appointments screen
+
+# \- My Profile screen
+
+# \- Bottom navigation for the main application sections
+
+# 
+
+# \---
+
+# 
+
+# \## 🛠️ Technologies Used
+
+# 
+
+# \- \*\*Flutter\*\* — UI development framework
+
+# \- \*\*Dart\*\* — Programming language
+
+# \- \*\*Flutter Material Widgets\*\* — UI components
+
+# \- \*\*Android\*\* — Application testing platform
+
+# 
+
+# \---
+
+# 
+
+# \## 🚀 Run the Project Locally
+
+# 
+
+# \### Prerequisites
+
+# 
+
+# Make sure you have installed:
+
+# 
+
+# \- Flutter SDK
+
+# \- Git
+
+# \- VS Code or another Flutter-compatible IDE
+
+# \- An Android device with USB debugging enabled, or an Android emulator
+
+# 
+
+# \### Step 1: Clone the Repository
+
+# 
+
+# ```bash
+
+# git clone https://github.com/Towfiqur-Rahman-Tusher/Authentic\_four\_Technology\_national-hospital-chittagong.git
+
+# ```
+
+# 
+
+# Open the cloned project folder in VS Code.
+
+# 
+
+# \### Step 2: Check Flutter Setup
+
+# 
+
+# ```bash
+
+# flutter doctor
+
+# ```
+
+# 
+
+# \### Step 3: Install Dependencies
+
+# 
+
+# Run these commands from the directory containing `pubspec.yaml`:
+
+# 
+
+# ```bash
+
+# flutter pub get
+
+# ```
+
+# 
+
+# \### Step 4: Check Connected Devices
+
+# 
+
+# ```bash
+
+# flutter devices
+
+# ```
+
+# 
+
+# \### Step 5: Run the Application
+
+# 
+
+# ```bash
+
+# flutter run
+
+# ```
+
+# 
+
+# \*\*For a physical Android device:\*\* Enable Developer Options and USB Debugging, connect your phone to your computer, approve the debugging prompt, and select your device.
+
+# 
+
+# \---
+
+# 
+
+# \## 👨‍💻 Author
+
+# 
+
+# \*\*Towfiqur Rahman Tusher\*\*
+
+# 
+
+# GitHub: \[Towfiqur-Rahman-Tusher](https://github.com/Towfiqur-Rahman-Tusher)
+
+# 
+
+# \*\*Internship Organization:\*\* Authentic Four Technology
+
+# 
+
+# \---
+
+# 
+
+# \## ⚠️ Disclaimer
+
+# 
+
+# This repository documents a UI/frontend demo. Doctor details, consultation fees, ratings, available times, and appointment interactions may contain sample or static content.
+
+# 
+
+# This project does not represent a live hospital booking service. API development, backend implementation, and live appointment-booking integration were outside the scope of my contribution.
+
+# 
+
+# The hospital's original branding, medical content, and any pre-existing application functionality remain the property of their respective owners.
+
+
+

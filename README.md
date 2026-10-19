@@ -1,256 +1,149 @@
-# \# National Hospital Chattogram — Flutter UI Demo
+# National Hospital Chattogram --- Flutter UI Demo
 
-# 
+A Flutter UI/frontend redesign project for selected screens of the
+National Hospital Chattogram mobile application.
 
-# A Flutter UI/frontend redesign project for selected screens of the National Hospital Chattogram mobile application.
+This project was completed individually by **Towfiqur Rahman Tusher**
+during an internship at **Authentic Four Technology**.
 
-# 
+> **Project scope:** My contribution was limited to UI/frontend design
+> and implementation. I did not develop or integrate the API or backend
+> services. Appointment-related screens and displayed information are
+> demo UI unless connected to a working service.
 
-# This project was completed individually by \*\*Towfiqur Rahman Tusher\*\* during an internship at \*\*Authentic Four Technology\*\*.
+------------------------------------------------------------------------
 
-# 
+## 📱 App Screenshots
 
-# \*\*Project Scope:\*\* My contribution was limited to UI/frontend design and implementation. I did not develop or integrate the API or backend services. Appointment-related screens and displayed information are presented as demo UI unless connected to a working service.
+### 1. Home Screen
 
-# 
+![Home Screen](screenshots/home.jpeg)
 
-# \---
+### 2. Doctor Categories
 
-# 
+![Doctor Categories](screenshots/doctor-categories.jpeg)
 
-# \## 📱 App Screenshots
+### 3. Doctor Categories with Doctor List
 
-# 
+![Doctor Categories with Doctor
+List](screenshots/doctor-categories-with-list.jpeg)
 
-# \### 1. Home Screen
+### 4. All Doctors
 
-# !\[Home Screen](screenshots/home.jpeg)
+![Doctor List](screenshots/doctor-list.jpeg)
 
-# 
+### 5. Doctor Details --- Profile and Chamber Information
 
-# \### 2. Doctor Categories
+![Doctor Details](screenshots/doctor-details-1.jpeg)
 
-# !\[Doctor Categories](screenshots/doctor-categories.jpeg)
+### 6. Doctor Details --- Appointment Date and Time Selection
 
-# 
+![Appointment Selection](screenshots/doctor-details-2.jpeg)
 
-# \### 3. Doctor Categories with Doctor List
+### 7. My Appointments
 
-# !\[Doctor Categories with Doctor List](screenshots/doctor-categories-with-list.jpeg)
+![My Appointments](screenshots/appointments.jpeg)
 
-# 
+### 8. My Profile
 
-# \### 4. All Doctors
+![My Profile](screenshots/profile.jpeg)
 
-# !\[Doctor List](screenshots/doctor-list.jpeg)
+------------------------------------------------------------------------
 
-# 
+## ✨ UI Features
 
-# \### 5. Doctor Details — Profile and Chamber Information
+-   Hospital home screen with search and appointment banner
+-   Doctor categories and specialty navigation
+-   Doctor listing and search interface
+-   Doctor information, experience, ratings, and consultation-fee
+    presentation
+-   Chamber information interface
+-   Appointment date and time-slot selection UI
+-   My Appointments screen
+-   My Profile screen
+-   Bottom navigation for the main application sections
 
-# !\[Doctor Details](screenshots/doctor-details-1.jpeg)
+------------------------------------------------------------------------
 
-# 
+## 🛠️ Technologies Used
 
-# \### 6. Doctor Details — Appointment Date and Time Selection
+-   **Flutter** --- UI development framework
+-   **Dart** --- Programming language
+-   **Flutter Material Widgets** --- UI components
+-   **Android** --- Application testing platform
 
-# !\[Appointment Selection](screenshots/doctor-details-2.jpeg)
+------------------------------------------------------------------------
 
-# 
+## 🚀 Run the Project Locally
 
-# \### 7. My Appointments
+### Prerequisites
 
-# !\[My Appointments](screenshots/appointments.jpeg)
+-   Flutter SDK
+-   Git
+-   VS Code or another Flutter-compatible IDE
+-   An Android device with USB debugging enabled, or an Android emulator
 
-# 
+### Step 1: Clone the Repository
 
-# \### 8. My Profile
+``` bash
+git clone https://github.com/Towfiqur-Rahman-Tusher/Authentic_four_Technology_national-hospital-chittagong.git
+```
 
-# !\[My Profile](screenshots/profile.jpeg)
+Open the cloned project folder in VS Code.
 
-# 
+### Step 2: Check Flutter Setup
 
-# \---
+``` bash
+flutter doctor
+```
 
-# 
+### Step 3: Install Dependencies
 
-# \## ✨ UI Features
+Run this command from the directory containing `pubspec.yaml`:
 
-# 
+``` bash
+flutter pub get
+```
 
-# \- Hospital home screen with search and appointment banner
+### Step 4: Check Connected Devices
 
-# \- Doctor categories and specialty navigation
+``` bash
+flutter devices
+```
 
-# \- Doctor listing and search interface
+### Step 5: Run the Application
 
-# \- Doctor information, experience, ratings, and consultation-fee presentation
+``` bash
+flutter run
+```
 
-# \- Chamber information interface
+**For a physical Android device:** Enable Developer Options and USB
+Debugging, connect your phone to your computer, approve the debugging
+prompt, and select your device.
 
-# \- Appointment date and time-slot selection UI
+------------------------------------------------------------------------
 
-# \- My Appointments screen
+## 👨‍💻 Author
 
-# \- My Profile screen
+**Towfiqur Rahman Tusher**
 
-# \- Bottom navigation for the main application sections
+GitHub:
+[Towfiqur-Rahman-Tusher](https://github.com/Towfiqur-Rahman-Tusher)
 
-# 
+**Internship Organization:** Authentic Four Technology
 
-# \---
+------------------------------------------------------------------------
 
-# 
+## ⚠️ Disclaimer
 
-# \## 🛠️ Technologies Used
+This repository documents a UI/frontend demo. Doctor details,
+consultation fees, ratings, available times, and appointment
+interactions may contain sample or static content.
 
-# 
+This project does not represent a live hospital booking service. API
+development, backend implementation, and live appointment-booking
+integration were outside the scope of my contribution.
 
-# \- \*\*Flutter\*\* — UI development framework
-
-# \- \*\*Dart\*\* — Programming language
-
-# \- \*\*Flutter Material Widgets\*\* — UI components
-
-# \- \*\*Android\*\* — Application testing platform
-
-# 
-
-# \---
-
-# 
-
-# \## 🚀 Run the Project Locally
-
-# 
-
-# \### Prerequisites
-
-# 
-
-# Make sure you have installed:
-
-# 
-
-# \- Flutter SDK
-
-# \- Git
-
-# \- VS Code or another Flutter-compatible IDE
-
-# \- An Android device with USB debugging enabled, or an Android emulator
-
-# 
-
-# \### Step 1: Clone the Repository
-
-# 
-
-# ```bash
-
-# git clone https://github.com/Towfiqur-Rahman-Tusher/Authentic\_four\_Technology\_national-hospital-chittagong.git
-
-# ```
-
-# 
-
-# Open the cloned project folder in VS Code.
-
-# 
-
-# \### Step 2: Check Flutter Setup
-
-# 
-
-# ```bash
-
-# flutter doctor
-
-# ```
-
-# 
-
-# \### Step 3: Install Dependencies
-
-# 
-
-# Run these commands from the directory containing `pubspec.yaml`:
-
-# 
-
-# ```bash
-
-# flutter pub get
-
-# ```
-
-# 
-
-# \### Step 4: Check Connected Devices
-
-# 
-
-# ```bash
-
-# flutter devices
-
-# ```
-
-# 
-
-# \### Step 5: Run the Application
-
-# 
-
-# ```bash
-
-# flutter run
-
-# ```
-
-# 
-
-# \*\*For a physical Android device:\*\* Enable Developer Options and USB Debugging, connect your phone to your computer, approve the debugging prompt, and select your device.
-
-# 
-
-# \---
-
-# 
-
-# \## 👨‍💻 Author
-
-# 
-
-# \*\*Towfiqur Rahman Tusher\*\*
-
-# 
-
-# GitHub: \[Towfiqur-Rahman-Tusher](https://github.com/Towfiqur-Rahman-Tusher)
-
-# 
-
-# \*\*Internship Organization:\*\* Authentic Four Technology
-
-# 
-
-# \---
-
-# 
-
-# \## ⚠️ Disclaimer
-
-# 
-
-# This repository documents a UI/frontend demo. Doctor details, consultation fees, ratings, available times, and appointment interactions may contain sample or static content.
-
-# 
-
-# This project does not represent a live hospital booking service. API development, backend implementation, and live appointment-booking integration were outside the scope of my contribution.
-
-# 
-
-# The hospital's original branding, medical content, and any pre-existing application functionality remain the property of their respective owners.
-
-
-
+The hospital's original branding, medical content, and any pre-existing
+application functionality remain the property of their respective
+owners.
